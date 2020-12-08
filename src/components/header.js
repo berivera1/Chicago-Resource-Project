@@ -12,7 +12,7 @@ function Header() {
         //What this if statement below states is that whenever the hamburger gets toggled adjust the width of the nav overlay - if the overlay is at 100% width and open then it needs to go down to 0% and closed.
         if (overlay.style.width === "100%") {
             overlay.style.width = "0%"
-        } else if (overlay.style.visibility === "hidden") {
+        } else if ((overlay.style.visibility = "hidden")) {
             overlay.style.visibility = "visible"
             overlay.style.width = "100%";
         }
