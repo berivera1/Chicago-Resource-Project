@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 function Header() {
     function clickHandler(event) {
@@ -23,16 +23,18 @@ function Header() {
         <>
             <div className="banner-container">
                 <div className="banner-image">
-                <img src="./images/skylineasset1.png" alt="Skyline Asset"></img>
+                    <Link id="nav" class="banner-image-link" onClick={clickHandler} to="/">
+                        <img src="./images/skylineasset1.png" alt="Skyline Asset"></img>
+                    </Link>
                 </div>
                 <div className="burger-container" onClick = {toggleHamburger}>
                     <span style={{fontSize: '42px', cursor: 'pointer'}} id="hamburger">☰</span>
                     <div className="overlay-container">
                 <div id="navbar" className="overlay">
                     <div id="overlay-links">
-                        <Link id="nav" onClick={clickHandler} to="/">Home</Link>
-                        <Link id="nav" onClick={clickHandler} to="/about">About</Link>
-                        <Link id="nav" onClick={clickHandler} to="/resources">Resource</Link>
+                        <Link id="nav" onClick={clickHandler} to="/">Home</Link><br />
+                        <Link id="nav" onClick={clickHandler} to="/about">About</Link><br />
+                        <Link id="nav" onClick={clickHandler} to="/resources">Resources</Link>
                     </div>
                     {/* <a href={{javascript:void(0)}} className="closebtn" onClick={toggleHamburger}>&times;</a> */}
                 </div>

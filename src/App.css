@@ -30,6 +30,8 @@ body {
   }
   
   .button {
+    display: block;
+    margin: 0.5em;
     text-decoration: none;
     padding: 0.5em 1em;
     border-radius: 5px;
