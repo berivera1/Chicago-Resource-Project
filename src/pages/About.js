@@ -1,4 +1,5 @@
 import React from 'react'
+import memberElements from "../memberElements";
 
 function About() {
     return (
@@ -40,62 +41,18 @@ function About() {
                     </div>
 
                     <div className="team-list block-centered-comfortable">
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
+                    {memberElements.map((element) => {
+                        return (
+                            <div className="member-container">
+                                <div className="member-picture">
+                                    <img src={`${element.picture}`} alt={`${element.name}`} width={"150"} height={"150"}></img>
+                                </div>
+                                <div className="member-name">
+                                    <p><b>{`${element.name}`}</b><br />{`${element.titles}`}</p>
+                                </div>
                             </div>
-                            <div className="member-name">
-                                <p><b>Anna Gingle</b><br />Development + Research</p>
-                            </div>
-                        </div>
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
-                            </div>
-                            <div className="member-name">
-                                <p><b>Beck Rivera</b><br />Development + Research</p>
-                            </div>
-                        </div>
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
-                            </div>
-                            <div className="member-name">
-                                <p><b>Cassi Seifert</b><br />Design + Research</p>
-                            </div>
-                        </div>
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
-                            </div>
-                            <div className="member-name">
-                                <p><b>Connor Perfect</b><br />Research</p>
-                            </div>
-                        </div>
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
-                            </div>
-                            <div className="member-name">
-                                <p><b>Eric E</b><br />Design + Research</p>
-                            </div>
-                        </div>
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
-                            </div>
-                            <div className="member-name">
-                                <p><b>Georgia Swinand</b><br />Design + Research</p>
-                            </div>
-                        </div>
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
-                            </div>
-                                                        <div className="member-name">
-                                <p><b>Sneh Mehta</b><br />Development + Research</p>
-                            </div>
-                        </div>
+                        );
+                    })}
                     </div>
                 </div>
             </div>

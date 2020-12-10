@@ -1,4 +1,6 @@
 import React from 'react'
+import orgElements from "../orgElements";
+import mafElements from "../mafElements";
 
 function Resources() {
     return (
@@ -15,28 +17,42 @@ function Resources() {
                         <h2>Chicago Organizations</h2>
                     </div>
                     <div className="team-list block-centered-comfortable">
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
+                    {orgElements.map((element) => {
+                        return (
+                            <div className="org-container">
+                                <div className="org-picture">
+                                    <img src={`${element.logo}`} alt={`${element.name}`} width={"150"} height={"150"}></img>
+                                </div>
+                                <div className="org-name">
+                                    <p><b>{`${element.name}`}</b><br />{`${element.description}`}</p>
+                                </div>
+                                <a target="_blank" rel="noreferrer" className="button workButton" href={`${element.buttonLink}`}>
+                                    {element.buttonText}
+                                </a>
                             </div>
-                            <div className="member-name">
-                                <p><b>It him</b><br />Development + Research</p>
-                            </div>
-                        </div>
+                        );
+                    })}
                     </div>
                     
                     <div className="section-title">
                         <h2>Mutual Aid Funds</h2>
                     </div>
                     <div className="team-list block-centered-comfortable">
-                        <div className="member-container">
-                            <div className="member-picture">
-                                <img src="/images/example-team-member.png" alt="Example Team Member's Name" width={"150"} height={"150"}></img>
+                    {mafElements.map((element) => {
+                        return (
+                            <div className="maf-container">
+                                <div className="maf-picture">
+                                    <img src={`${element.logo}`} alt={`${element.name}`} width={"150"} height={"150"}></img>
+                                </div>
+                                <div className="maf-name">
+                                    <p><b>{`${element.name}`}</b><br />{`${element.description}`}</p>
+                                </div>
+                                <a target="_blank" rel="noreferrer" className="button schoolButton" href={`${element.buttonLink}`}>
+                                    {element.buttonText}
+                                </a>
                             </div>
-                            <div className="member-name">
-                                <p><b>O shit whaddup?</b><br />Development + Research</p>
-                            </div>
-                        </div>
+                        );
+                    })}
                     </div>
                 </div>
             </div>
