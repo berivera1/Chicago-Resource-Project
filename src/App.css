@@ -1,8 +1,5 @@
 body {
-    background: #3da3d5;
-    font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: rgb(53, 53, 53);
   }
   
   .title {
@@ -20,38 +17,58 @@ body {
       0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
     padding: 2em 3em !important;
   }
-  
-  .date {
-    color: rgb(201, 251, 255);
+
+  .vertical-timeline-element-content {
+    color: #FFFFFF;
   }
   
+  .vertical-timeline-element-date {
+    color: #94b353 !important;
+    margin: 0 auto;
+  }
+
+  .vertical-timeline-element-source {
+    color: #94b353;
+  }
+
   #description {
     margin: 1.5em 0 2em 0;
   }
   
+  .vertical-timeline-element>div {
+    background-color: #e3ebe2;
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2F3536), color-stop(100%,#485356));
+	  background: -webkit-linear-gradient(top,  #2F3536 0%, #485356 100%);
+	  background:    -moz-linear-gradient(top,  #2F3536 0%, #485356 100%);
+	  background:     -ms-linear-gradient(top,  #2F3536 0%, #485356 100%);
+	  background:      -o-linear-gradient(top,  #2F3536 0%, #485356 100%);
+	  background:         linear-gradient(to top, #2F3536 0%, #485356 100%);
+    background-attachment: fixed;
+  }
+
   .button {
     display: block;
     margin: 0.5em;
     text-decoration: none;
     padding: 0.5em 1em;
-    border-radius: 5px;
-    color: white;
+    border-radius: 15px;
+    color: #2F3536;
   }
   
   .workButton {
-    background-color: #06d6a0;
+    background: #b1b7b7;
   }
   
   .workButton:hover {
-    background-color: #0ac593;
+    background-color: #B6C0A0;
   }
   
   .schoolButton {
-    background-color: #f9c74f;
+    background: #b1b7b7;
   }
   
   .schoolButton:hover {
-    background-color: #f3bc3c;
+    background-color: #B6C0A0;
   }
   
   @media only screen and (max-width: 1700px) {
