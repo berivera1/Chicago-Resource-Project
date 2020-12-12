@@ -32,7 +32,7 @@ function HomePage() {
             return (
               <VerticalTimelineElement
                 key={element.key}
-                date={element.date}
+                // date={element.date}
                 dateClassName="date"
                 iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
                 icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
@@ -40,8 +40,16 @@ function HomePage() {
                 <h3 className="vertical-timeline-element-title">
                   {element.title}
                 </h3>
+
+                <h3 className="vertical-timeline-element-date">
+                  {element.date}
+                </h3>
                 
                 <p id="description">{element.description}</p>
+
+                <h4 className="vertical-timeline-element-source">
+                   Learn More ↓
+                </h4>
                 {showButton && (
                   <a target="_blank" rel="noreferrer"
                     className={`button ${

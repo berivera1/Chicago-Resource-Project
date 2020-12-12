@@ -16,11 +16,11 @@ function About() {
 
                 <div className="body-container">
                     <div className="section-title">
-                        <h2> Mission Statement</h2>
+                        <h2> Vision Statement</h2>
                     </div>
 
                     <div className="section-description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem delectus, molestiae enim dolorem id ipsum quas et fugiat corporis excepturi ab odit animi ea reiciendis quos dignissimos facilis a?</p>
+                        <p>Our vision of the ideal future is one of equality in the sense that we are all equal in the fact that we are all different. That we will be united together by that distinction, and we hope to provide a platform that has impact and growth in every community in Chicago.  We strive to speak true to Columbia College Chicago’s mission statement “to author the culture of our times".</p>
                     </div>
 
                     <div className="section-link">
@@ -33,7 +33,7 @@ function About() {
                     </div>
 
                     <div className="section-description">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae rem delectus, molestiae enim dolorem id ipsum quas et fugiat corporis excepturi ab odit animi ea reiciendis quos dignissimos facilis a?</p>
+                        <p>As Columbia students, our campus and the surrounding community have witnessed and been affected by very recent historic civil unrest. For many, George Floyd’s death under the knee of a Minneapolis police officer was a blunt reminder of Chicago’s racial divide and prolonged history of police brutality against African Americans.</p>
                     </div>
 
                     <div className="section-title">

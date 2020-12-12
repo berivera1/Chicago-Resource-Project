@@ -4,12 +4,12 @@ html, body {
 	color: #35342C;
 
 	background-color: #e3ebe2;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EFF4E5), color-stop(100%,#D5DFDD));
-	background: -webkit-linear-gradient(top,  #EFF4E5 0%, #D5DFDD 100%);
-	background:    -moz-linear-gradient(top,  #EFF4E5 0%, #D5DFDD 100%);
-	background:     -ms-linear-gradient(top,  #EFF4E5 0%, #D5DFDD 100%);
-	background:      -o-linear-gradient(top,  #EFF4E5 0%, #D5DFDD 100%);
-	background:         linear-gradient(to bottom, #EFF4E5 0%, #D5DFDD 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99A5A4), color-stop(100%,#CCCCCC));
+	background: -webkit-linear-gradient(top,  #99A5A4 0%, #CCCCCC 100%);
+	background:    -moz-linear-gradient(top,  #99A5A4 0%, #CCCCCC 100%);
+	background:     -ms-linear-gradient(top,  #99A5A4 0%, #CCCCCC 100%);
+	background:      -o-linear-gradient(top,  #99A5A4 0%, #CCCCCC 100%);
+	background:         linear-gradient(to top, #99A5A4 0%, #CCCCCC 100%);
 	background-attachment: fixed;
 	min-height: 100%;
 
@@ -48,12 +48,12 @@ p, a {
 	top: 0;
 	left: 0;
 	background-color: #e3ebe2;
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EFF4E5), color-stop(100%,#D5DFDD));
-	background: -webkit-linear-gradient(top,  #EFF4E5 0%, #D5DFDD 100%);
-	background:    -moz-linear-gradient(top,  #EFF4E5 0%, #D5DFDD 100%);
-	background:     -ms-linear-gradient(top,  #EFF4E5 0%, #D5DFDD 100%);
-	background:      -o-linear-gradient(top,  #EFF4E5 0%, #D5DFDD 100%);
-	background:         linear-gradient(to bottom, #EFF4E5 0%, #D5DFDD 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#99A5A4), color-stop(100%,#CCCCCC));
+	background: -webkit-linear-gradient(top,  #99A5A4 0%, #CCCCCC 100%);
+	background:    -moz-linear-gradient(top,  #99A5A4 0%, #CCCCCC 100%);
+	background:     -ms-linear-gradient(top,  #99A5A4 0%, #CCCCCC 100%);
+	background:      -o-linear-gradient(top,  #99A5A4 0%, #CCCCCC 100%);
+	background:         linear-gradient(to top, #99A5A4 0%, #CCCCCC 100%);
 	background-attachment: fixed;
 	overflow-x: hidden;
 	transition: 0.5s;
