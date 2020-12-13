@@ -26,7 +26,7 @@ function HomePage() {
             let showButton3 =
               element.buttonLink3 !== undefined &&
               element.buttonLink3 !== null &&
-              element.buttonLink3 !== "";
+              element.buttonLink3 !== ""; 
 
             return (
               <VerticalTimelineElement
