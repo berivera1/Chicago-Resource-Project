@@ -3,7 +3,7 @@ let timelineElements = [
     id: 1,
     title: "Chicago Race Riots",
     description:
-      "A young black man named Eugene Williams drowned at 29th St Beach after swimming into a ‘white-only’ area and having stones thrown at him. A white police officer refused to arrest the white perpetrator, and arrested a black individual instead. This incident sparked five days of rioting between angry mobs, leaving 38 dead and 291 wounded.",
+      "A young Black man named Eugene Williams drowned at 29th St Beach after swimming into a ‘white-only’ area and having stones thrown at him. A White police officer refused to arrest the White perpetrator, and arrested a Black individual instead. This incident sparked five days of rioting between angry mobs, leaving 38 dead and 291 wounded.",
     buttonText: "Chicago Public Library",
     buttonLink: "https://web.archive.org/web/20060615060650/http://www.chipublib.org/004chicago/disasters/riots_race.html",
     date: "July 27th, 1919 - July 31st, 1919",
@@ -23,7 +23,7 @@ let timelineElements = [
     id: 3,
     title: "Division Street Riots",
     description:
-      "Years of tension between the Puerto Rican community and the CPD erupt in chaos after a Puerto Rican heritage parade. A police officer alleges that a man named Arcelis Cruz is armed during a group altercation and shoots him in the leg. This sparks days of riots that left 16 wounded and 49 arrested.",
+      "Years of tension between the Puerto Rican community and the CPD erupt in chaos after a Puerto Rican heritage parade. A police officer alleges that a man named Arcelis Cruz is armed during a group altercation and shoots him in the leg. This sparked days of riots that left 16 wounded and 49 arrested.",
     buttonText: "Chicagoist",
     buttonLink: "https://web.archive.org/web/20170519040728/http://chicagoist.com/2006/06/14/humboldt_park_riots_remembered.php",
     buttonText2: "The Encyclopedia of Chicago History",
@@ -35,7 +35,7 @@ let timelineElements = [
     id: 4,
     title: "MLK Riots",
     description:
-      "Riots and demonstrations happen across Chicago and the rest of the US following the assasination of Martin Luther King Jr.. In Chicago, these riots left 11 dead, 90 officers wounded, 48 demonstrators wounded, and over 2,000 demonstrators arrested.",
+      "Riots and demonstrations happen across Chicago and the rest of the US following Martin Luther King Jr.’s assasination. In Chicago, these riots left 11 dead, 90 officers wounded, 48 demonstrators wounded, and over 2,000 demonstrators arrested.",
     buttonText: "The Encyclopedia of Chicago History",
     buttonLink: "http://www.encyclopedia.chicagohistory.org/pages/6354.html",
     date: "April 5th, 1968 - April 7th, 1968",
@@ -57,7 +57,7 @@ let timelineElements = [
     id: 6,
     title: "Fatal Shooting of Fred Hampton",
     description:
-      "Fred Hampton was a political activist associated with the Black Panthers and other civil rights organizations of the time. He was killed in an early-morning police raid at point blank range along with his friend, Mark Clark. A civil lawsuit filed by a group of Hampton’s survivors was awarded in 1982.",
+      "Fred Hampton, a political activist associated with the Black Panthers and other civil rights organizations of the time, was killed in an early-morning police raid at point blank range along with fellow activist, Mark Clark. A civil lawsuit filed by a group of Hampton’s survivors was awarded in 1982.",
     buttonText: "Democracy Now",
     buttonLink: "https://www.democracynow.org/2009/12/4/the_assassination_of_fred_hampton_how",
     date: "December 4th, 1969",
@@ -67,7 +67,7 @@ let timelineElements = [
     id: 7,
     title: "Jon Burge Torture and Trials",
     description:
-      "Jon Burge served on the Chicago Police Department for over twenty years, and was convicted in 2010 for torturing his interrogation suspects for confessions. Associated cases and trials would continue to come up in court throughout the following decades.",
+      "Jon Burge, a Chicago police officer for over twenty years, was convicted in 2010 of torturing his interrogation suspects for confessions. Associated cases would be reported following this conviction, and trials would continue for decades.",
     buttonText: "Chicago Tribune",
     buttonLink: "https://www.chicagotribune.com/news/ct-jon-burge-chicago-police-torture-timeline-20180919-htmlstory.html",
     date: "March 1st, 1970 - July 29th, 2016",
@@ -77,7 +77,7 @@ let timelineElements = [
     id: 8,
     title: "Humboldt Park Riot",
     description:
-      "Riots broke out across Humboldt Park following a police altercation where officers shot and killed two young men named Julio Osorio and Rafael Cruz. Thousands of mostly Puerto Rican individuals participated in this event that left 49 wounded, and 2 dead.",
+      "Riots broke out across Humboldt Park following a police altercation where officers shot and killed two young men named Julio Osorio and Rafael Cruz. This event ended with 49 wounded, and 2 dead.",
     buttonText: "The Encyclopedia of Chicago History",
     buttonLink: "http://www.encyclopedia.chicagohistory.org/pages/1027.html",
     buttonText2: "WBEZ",
@@ -103,7 +103,7 @@ let timelineElements = [
     id: 10,
     title: "Homan Square Disappearances",
     description:
-      "More than 7,000 individuals were detained by CPD at an off-the-books interrogation warehouse in Homan Square. 82.2% of the people that were detained at Homan Square were black, despite only making up 32.9% of the Chicago population.",
+      "More than 7,000 individuals were detained by CPD at an off-the-books interrogation warehouse in Homan Square. 82.2% of the people that were detained at Homan Square were black, while only making up 32.9% of the Chicago population.",
     buttonText: "The Guardian",
     buttonLink: "https://www.theguardian.com/us-news/2015/oct/19/homan-square-chicago-police-disappeared-thousands",
     date: "August 2004 - June 2015",
@@ -113,7 +113,7 @@ let timelineElements = [
     id: 11,
     title: "Fatal Shooting of Rekia Boyd",
     description:
-      "An off-duty officer calls in a noise complaint near Douglas Park and proceeds to confront the group of four who were making the noise. The officer claims one of the men, Antonio Cross, approached him with a gun, so he fired his weapon into the group. The bullets injured Cross, and struck 22 year-old Rekia Boyd in the head. Boyd died the next day at the hospital. The city settled a lawsuit with the Boyd family in 2013. In 2015, the officer was cleared of all charges due to a failed prosecution.",
+      "After lodging a noise complaint, an off-duty officer confronted a group of four who he claimed made the noise. The off-duty officer then claimed one of the men, Antonio Cross, approached him with a gun, so he fired his weapon into the group. The bullets injured Cross, and struck 22 year-old Rekia Boyd in the head. Boyd died the next day at the hospital. The city settled a lawsuit with the Boyd family in 2013. In 2015, the officer was cleared of all charges due to a failed prosecution.",
     buttonText: "New York Times",
     buttonLink: "https://www.nytimes.com/2015/04/21/us/chicago-police-detective-cleared-of-manslaughter-in-shooting-death.html",
     buttonText2: "Chicago Tribune",
@@ -127,7 +127,7 @@ let timelineElements = [
     id: 12,
     title: "Chicago BLM Chapter Founded",
     description:
-      "Taken from the BLM website, ‘#BlackLivesMatter was founded in 2013 in response to the acquittal of Trayvon Martin’s murderer.’ The 100% volunteer run Chicago chapter was founded in 2014, and is currently working to ‘create just and equitable systems’ as well as working to ‘end state violence and criminalization of Black communities.’",
+      "Directly from Black Lives Matter’s website, ‘#BlackLivesMatter was founded in 2013 in response to the acquittal of Trayvon Martin’s murderer.’ The 100% volunteer run Chicago chapter was founded in 2014, and is currently working to ‘create just and equitable systems’ as well as working to ‘end state violence and criminalization of Black communities’.",
     buttonText: "Black Lives Matter Chicago",
     buttonLink: "https://www.blacklivesmatterchicago.com/",
     date: "2014",
@@ -163,7 +163,7 @@ let timelineElements = [
     id: 15,
     title: "George Floyd and Breonna Taylor Protests",
     description:
-      "A summer of protests sweep across the nation following the murders of unarmed black individuals like Ahmaud Arbery, George Floyd, Breonna Taylor, and more. Political turmoil and the COVID-19 global pandemic created an incredibly unique landscape for this milestone in civil rights activism. While there isn’t a total count of officers or protesters injured, in Chicago alone, thousands of protestors were arrested at non-violent demonstrations.",
+      "A summer of protests sweep across the nation following the murders of unarmed Black individuals like Ahmaud Arbery, George Floyd, Breonna Taylor, and many more. While there isn’t a total count of officers or protesters injured, in Chicago alone, thousands of protestors were arrested at non-violent demonstrations.",
     buttonText: "The Guardian",
     buttonLink: "https://www.theguardian.com/world/2020/oct/31/americans-killed-protests-political-unrest-acled",
     buttonText2: "Block Club Chicago",

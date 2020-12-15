@@ -20,7 +20,7 @@ function About() {
                     </div>
 
                     <div className="section-description">
-                        <p>Our vision of the ideal future is one of equality in the sense that we are all equal in the fact that we are all different. That we will be united together by that distinction, and we hope to provide a platform that has impact and growth in every community in Chicago.  We strive to speak true to Columbia College Chicago’s mission statement “to author the culture of our times".</p>
+                        <p>The objective of our project is to create an interactive timeline that serves as a source to locate information regarding police brutality in our city, and the many harsh realities of its existence in our society today. We are aware that we may have made errors, and hope to mend any as they are discovered. This project is meant to be a continuous work in progress, and we remain fully open to critique from our users.  </p>
                     </div>
 
                     <div className="section-link">
