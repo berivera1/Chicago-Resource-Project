@@ -8,6 +8,7 @@ let timelineElements = [
     buttonLink: "https://web.archive.org/web/20060615060650/http://www.chipublib.org/004chicago/disasters/riots_race.html",
     date: "July 27th, 1919 - July 31st, 1919",
     icon: "work",
+    startYear: "1919",
   },
   {
     id: 2,
@@ -18,6 +19,7 @@ let timelineElements = [
     buttonLink: "https://web.archive.org/web/20140228084227/http://www.illinoislaborhistory.org/memorial-day-massacre.html",
     date: "May 30th, 1937",
     icon: "work",
+    startYear: "1937",
   },
   {
     id: 3,
@@ -30,6 +32,7 @@ let timelineElements = [
     buttonLink2: "http://www.encyclopedia.chicagohistory.org/pages/1027.html",
     date: "June 12th, 1966 - June 14th, 1966",
     icon: "work",
+    startYear: "1966",
   },
   {
     id: 4,
@@ -40,6 +43,7 @@ let timelineElements = [
     buttonLink: "http://www.encyclopedia.chicagohistory.org/pages/6354.html",
     date: "April 5th, 1968 - April 7th, 1968",
     icon: "school",
+    startYear: "1968",
   },
   {
     id: 5,
@@ -52,6 +56,7 @@ let timelineElements = [
     buttonLink2: "https://www.washingtonpost.com/news/retropolis/wp/2018/08/24/a-party-that-had-lost-its-mind-in-1968-democrats-held-one-of-historys-most-disastrous-conventions/",
     date: "August 23rd, 1968 - August 28th, 1968",
     icon: "school",
+    startYear: "1968",
   },
   {
     id: 6,
@@ -62,6 +67,7 @@ let timelineElements = [
     buttonLink: "https://www.democracynow.org/2009/12/4/the_assassination_of_fred_hampton_how",
     date: "December 4th, 1969",
     icon: "school",
+    startYear: "1969",
   },
   {
     id: 7,
@@ -72,6 +78,7 @@ let timelineElements = [
     buttonLink: "https://www.chicagotribune.com/news/ct-jon-burge-chicago-police-torture-timeline-20180919-htmlstory.html",
     date: "March 1st, 1970 - July 29th, 2016",
     icon: "school",
+    startYear: "1970",
   },
   {
     id: 8,
@@ -86,6 +93,7 @@ let timelineElements = [
     buttonLink3: "https://www.nytimes.com/1977/06/05/archives/2-killed-49-injured-in-chicago-violence-gunfire-looting-follow.html",
     date: "June 4th, 1977 - June 5th, 1977",
     icon: "school",
+    startYear: "1977",
   },
   {
     id: 9,
@@ -98,6 +106,7 @@ let timelineElements = [
     buttonLink2: "https://peopleslawoffice.com/about-civil-rights-lawyers/history/george-jones-street-files-and-false-imprisonment/",
     date: "May 4th, 1981 - April 24th, 1987",
     icon: "school",
+    startYear: "1981",
   },
   {
     id: 10,
@@ -108,6 +117,7 @@ let timelineElements = [
     buttonLink: "https://www.theguardian.com/us-news/2015/oct/19/homan-square-chicago-police-disappeared-thousands",
     date: "August 2004 - June 2015",
     icon: "school",
+    startYear: "2004",
   },
   {
     id: 11,
@@ -122,6 +132,7 @@ let timelineElements = [
     buttonLink3: "https://www.huffpost.com/entry/chicagoans-rally-for-reki_n_1385032",
     date: "March 21st, 2012",
     icon: "school",
+    startYear: "2012",
   },
   {
     id: 12,
@@ -132,6 +143,7 @@ let timelineElements = [
     buttonLink: "https://www.blacklivesmatterchicago.com/",
     date: "2014",
     icon: "school",
+    startYear: "2014",
   },
   {
     id: 13,
@@ -144,6 +156,7 @@ let timelineElements = [
     buttonLink2: "https://time.com/4126670/chicago-releases-video-of-laquan-mcdonald-shooting/",
     date: "October 20th, 2014",
     icon: "school",
+    startYear: "2014",
   },
 {
     id: 14,
@@ -158,6 +171,7 @@ let timelineElements = [
     buttonLink3: "https://www.blacklivesmatterchicago.com/doj-investigation/",
     date: "December 7th, 2015 - January 13th, 2017",
     icon: "school",
+    startYear: "2015",
   },
   {
     id: 15,
@@ -170,6 +184,7 @@ let timelineElements = [
     buttonLink2: "https://blockclubchicago.org/2020/11/19/60-protesters-sue-city-alleging-chicago-police-abused-them-without-justification-at-summer-protests/",
     date: "May 28th, 2020 - Present",
     icon: "school",
+    startYear: "2020",
   },
 ];
 
