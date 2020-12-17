@@ -184,7 +184,9 @@ p, a {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	text-align: left !important;
+    width: 100%;
+    align-items: flex-start;
 }
 
 .team-list img {
@@ -196,5 +198,5 @@ p, a {
 }
 
 .team-list p {
-	text-align: center;
+	margin-top: 0;
 }

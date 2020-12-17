@@ -72,6 +72,7 @@ body {
     padding: 0.5em 1em;
     border-radius: 15px;
     color: #2F3536;
+    margin-left: 0 !important;
   }
   
   .workButton {

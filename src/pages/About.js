@@ -44,11 +44,11 @@ function About() {
                     {memberElements.map((element) => {
                         return (
                             <div className="member-container">
-                                <div className="member-picture">
+                                {/* <div className="member-picture">
                                     <img src={`${element.picture}`} alt={`${element.name}`} width={"150"} height={"150"}></img>
-                                </div>
+                                </div> */}
                                 <div className="member-name">
-                                    <p><b>{`${element.name}`}</b><br />{`${element.titles}`}</p>
+                                    <p><b>{`${element.name}`}</b> - {`${element.titles}`}</p>
                                 </div>
                             </div>
                         );
