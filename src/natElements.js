@@ -1,9 +1,9 @@
 let mafElements = [
 	{
 		id: 1,
-		name: "Example MAF",
+		name: "Example National Org",
 		description: "Donate to us, we need the $$$.",
-		logo: "/images/example-maf-logo.png",
+		logo: "/images/example-nat-logo.png",
 		buttonText: "Visit Us!",
 		buttonLink: "/",
 	},

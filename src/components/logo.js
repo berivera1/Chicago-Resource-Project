@@ -11,7 +11,7 @@ function Logo () {
             <div className="header-img-container">
                 <Link id="nav" onClick={clickHandler} to="/">
                     <div className="header-img">
-                        <img src="./images/CRPLogo.png" alt="CPRLogo"></img>
+                        <img src="./images/CRPLogo.png" class="logo" alt="CPRLogo"></img>
                     </div>
                 </Link>
             </div>

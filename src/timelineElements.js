@@ -162,7 +162,7 @@ let timelineElements = [
     id: 14,
     title: "Department of Justice Investigation",
     description:
-      "A thirteen month investigation by the Department of Justice Civil Rights Division revealed that the Chicago Police Department had been systemically denying citizens their civil rights for years. Using unlawful force, overall lack of training, and other instances of negligent misconduct were cited in this comprehensive report.",
+      "A thirteen month investigation by the Department of Justice Civil Rights Division revealed that the CPD had been systemically denying citizens their civil rights for years. Using unlawful force, overall lack of training, and other instances of negligent misconduct were cited in this comprehensive report.",
     buttonText: "Department of Justice",
     buttonLink: "https://www.justice.gov/opa/file/925846/download",
     buttonText2: "The Atlantic",

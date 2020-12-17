@@ -1,6 +1,6 @@
 import React from 'react'
 import orgElements from "../orgElements";
-import mafElements from "../mafElements";
+import mafElements from "../natElements";
 
 function Resources() {
     return (
@@ -35,7 +35,7 @@ function Resources() {
                     </div>
                     
                     <div className="section-title">
-                        <h2>Mutual Aid Funds</h2>
+                        <h2>National Organizations</h2>
                     </div>
                     <div className="team-list block-centered-comfortable">
                     {mafElements.map((element) => {

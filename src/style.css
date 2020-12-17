@@ -18,20 +18,34 @@ html, body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: mr-eaves-xl-modern, sans-serif;
-	font-weight: 300;
+	font-family: mr-eaves-modern, sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 p, a {
-	font-family: pt-serif, serif;
+	font-family: lato, sans-serif;
+	font-weight: 300 !important;
+	font-style: normal;
+	font-size: 13pt !important;
+}
+
+.skyline {
+	width: 275px;
+}
+
+.logo {
+	width: 300px;
 }
 
 .block-centered-comfortable {
+	max-width: 1170px;
 	margin: auto;
 	width: 80%;
 }
 
 .block-centered-close {
+	max-width: 1170px;
 	margin: auto;
 	width: 95%;
 }
@@ -59,23 +73,22 @@ p, a {
 	transition: 0.5s;
 }
 .overlay #overlay-links{
-  position: absolute;
-  width: 100%;
+	position: absolute;
+	width: 100%;
 	top: 33%;
 	text-align: center;
-	margin-top: 30px;
 }
 .overlay a {
 	padding: 8px;
 	text-decoration: none;
 	letter-spacing: 0.2em;
-	font-size: 36px;
+	font-size: 36px !important;
 	color: #818181;
 	display: inline-block;
 	transition: 0.3s;
 	padding: 0.5em;
 	text-transform: uppercase;
-	font-family: mr-eaves-xl-modern, sans-serif !important;
+	font-family: lato, sans-serif !important;
 	font-weight: 300;
 }
 .overlay a:after {
@@ -137,11 +150,6 @@ p, a {
 	margin: 0;
 }
 
-.header-container{
-	/* background-color: blue; */
-	margin-top: 32px;
-}
-
 .header-img-container{
 	margin: 0 auto;
 }
@@ -161,7 +169,9 @@ p, a {
 /*EVENTS*/
 .timeline-intro{
 	text-align: left;
-	padding: 15px;
+	padding: 90px 0 45px 0;
+	width: 84.210526315%;
+	margin: auto;
 }
 
 .event-title{
@@ -189,6 +199,7 @@ p, a {
     align-items: flex-start;
 }
 
+/* SVG Styling */
 .team-list img {
 	margin: auto;
 	display: block;
@@ -199,4 +210,55 @@ p, a {
 
 .team-list p {
 	margin-top: 0;
+}
+
+
+.cls-1 {
+	fill:url(#linear-gradient);
+}
+
+.cls-2 {
+	fill:url(#linear-gradient-2);
+}
+
+.cls-3 {
+	opacity:0.46;
+	fill:url(#linear-gradient-3);
+}
+
+.cls-4 {
+	fill:url(#linear-gradient-4);
+}
+
+.cls-5 {
+	opacity:0.6;
+	fill:url(#radial-gradient);
+}
+
+.cls-6 {
+	opacity:0.28;
+	fill:url(#radial-gradient-2);
+}
+
+.cls-7 {
+	opacity:0.58;
+}
+
+.cls-8 {
+	font-size:129.41px;
+	font-weight:400;
+	fill:#2f3536;
+	font-family:nimbus-sans, sans-serif;
+}
+
+.cls-9 {
+	fill:#e6edd6;
+	opacity:0.22;
+}
+
+/*------------------------MEDIA QUERIES------------------------*/
+@media only screen and (min-width: 540px) {
+    .button {
+		display: table !important;
+	}
 }
