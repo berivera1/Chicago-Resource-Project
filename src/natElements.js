@@ -1,12 +1,60 @@
-let mafElements = [
+let natElements = [
 	{
 		id: 1,
-		name: "Example National Org",
-		description: "Donate to us, we need the $$$.",
-		logo: "/images/example-nat-logo.png",
-		buttonText: "Visit Us!",
-		buttonLink: "/",
+		name: "Black Alliance for Just Immigration",
+		description: "BAJI was formed to bring Black voices together to advocate for equality and justice in our laws and our communities. Their goals is to educate and engage African American and black immigrant communities to organize and advocate for racial, social and economic justice.",
+		infoButtonText: "Info",
+		infoButtonLink: "https://baji.org/",
+		donateButtonText: "Donate",
+		donateButtonLink: "https://donorbox.org/baji-national-covid-19-mutual-relief-fund",
+	},
+	{
+		id: 2,
+		name: "BLM National",
+		description: "#BlackLivesMatter was founded in 2013 in response to the acquittal of Trayvon Martin’s murderer. Their mission is to eradicate white supremacy and build local power to intervene in violence inflicted on Black communities by the state and vigilantes.",
+		infoButtonText: "Info",
+		infoButtonLink: "https://blacklivesmatter.com/",
+		donateButtonText: "Donate",
+		donateButtonLink: "https://secure.actblue.com/donate/ms_blm_homepage_2019",
+	},
+	{
+		id: 3,
+		name: "Color of Change",
+		description: "Color Of Change is the nation’s largest online racial justice organization. As a national online force driven by 7 million members, they move decision-makers in corporations and government to create a more human and less hostile world for Black people in America.",
+		infoButtonText: "Info",
+		infoButtonLink: "https://colorofchange.org/",
+		donateButtonText: "Donate",
+		donateButtonLink: "https://secure.actblue.com/contribute/page/support-us",
+	},
+	{
+		id: 4,
+		name: "Incite!",
+		description: "INCITE! is a network of radical feminists of color organizing to end state violence and violence in local homes and communities. They organize from the framework that locates women of color as living in the dangerous intersections of sexism and racism, as well as other oppressions.",
+		infoButtonText: "Info",
+		infoButtonLink: "https://incite-national.org/",
+		donateButtonText: "Donate",
+		donateButtonLink: "https://incite-national.org/donate/",
+	},
+	{
+		id: 5,
+		name: "NAACP Legal Defense and Educational Fund",
+		description: "The NAACP LDF is America’s premier legal organization fighting for racial justice. Through litigation, advocacy, and public education, LDF seeks structural changes to expand democracy, eliminate disparities, and achieve racial justice in a society that fulfills the promise of equality for all Americans.",
+		infoButtonText: "Info",
+		infoButtonLink: "https://www.naacpldf.org/",
+		donateButtonText: "Donate",
+		donateButtonLink: "https://act.naacpldf.org/p/salsa/donation/common/public/?donate_page_KEY=15780",
+	},
+	{
+		id: 6,
+		name: "UndocuBlack Network",
+		description: "The UndocuBlack Network (UBN) is a multigenerational network of currently and formerly undocumented Black people that fosters community, facilitates access to resources, and contributes to transforming the realities of our people, so we are thriving and living our fullest lives.",
+		infoButtonText: "Info",
+		infoButtonLink: "https://undocublack.org/",
+		donateButtonText: "Donate",
+		donateButtonLink: "https://undocublack.org/donate",
+		donateButtonTextB: "COVID-19 Fund",
+		donateButtonLinkB: "https://undocublack.org/fundrelief",
 	},
 ];
   
-export default mafElements;
+export default natElements;

@@ -1,6 +1,6 @@
 import React from 'react'
 import orgElements from "../orgElements";
-import mafElements from "../natElements";
+import natElements from "../natElements";
 
 function Resources() {
     return (
@@ -18,17 +18,25 @@ function Resources() {
                     </div>
                     <div className="team-list block-centered-comfortable">
                     {orgElements.map((element) => {
+                        let showSecondDonationButton =
+                        element.donateButtonLinkB !== undefined &&
+                        element.donateButtonLinkB !== null &&
+                        element.donateButtonLinkB !== "";
                         return (
                             <div className="org-container">
-                                <div className="org-picture">
-                                    <img src={`${element.logo}`} alt={`${element.name}`} width={"150"} height={"150"}></img>
-                                </div>
-                                <div className="org-name">
-                                    <p><b>{`${element.name}`}</b><br />{`${element.description}`}</p>
-                                </div>
-                                <a target="_blank" rel="noreferrer" className="button workButton" href={`${element.buttonLink}`}>
-                                    {element.buttonText}
+                                <h3 className="org-name">{`${element.name}`}</h3>
+                                <p id="description">{element.description}</p>
+                                <a target="_blank" rel="noreferrer" className="org-button elementButton" href={`${element.infoButtonLink}`}>
+                                    {element.infoButtonText}
                                 </a>
+                                <a target="_blank" rel="noreferrer" className="org-button elementButton" href={`${element.donateButtonLink}`}>
+                                    {element.donateButtonText}
+                                </a>
+                                {showSecondDonationButton && (
+                                <a target="_blank" rel="noreferrer" className="org-button elementButton" href={`${element.donateButtonLinkB}`}>
+                                    {element.donateButtonTextB}
+                                </a>
+                                )}
                             </div>
                         );
                     })}
@@ -38,18 +46,26 @@ function Resources() {
                         <h2>National Organizations</h2>
                     </div>
                     <div className="team-list block-centered-comfortable">
-                    {mafElements.map((element) => {
+                    {natElements.map((element) => {
+                        let showSecondDonationButton =
+                        element.donateButtonLinkB !== undefined &&
+                        element.donateButtonLinkB !== null &&
+                        element.donateButtonLinkB !== "";
                         return (
-                            <div className="maf-container">
-                                <div className="maf-picture">
-                                    <img src={`${element.logo}`} alt={`${element.name}`} width={"150"} height={"150"}></img>
-                                </div>
-                                <div className="maf-name">
-                                    <p><b>{`${element.name}`}</b><br />{`${element.description}`}</p>
-                                </div>
-                                <a target="_blank" rel="noreferrer" className="button schoolButton" href={`${element.buttonLink}`}>
-                                    {element.buttonText}
+                            <div className="org-container">
+                                <h3 className="org-name">{`${element.name}`}</h3>
+                                <p id="description">{element.description}</p>
+                                <a target="_blank" rel="noreferrer" className="org-button elementButton" href={`${element.infoButtonLink}`}>
+                                    {element.infoButtonText}
                                 </a>
+                                <a target="_blank" rel="noreferrer" className="org-button elementButton" href={`${element.donateButtonLink}`}>
+                                    {element.donateButtonText}
+                                </a>
+                                {showSecondDonationButton && (
+                                <a target="_blank" rel="noreferrer" className="org-button elementButton" href={`${element.donateButtonLinkB}`}>
+                                    {element.donateButtonTextB}
+                                </a>
+                                )}
                             </div>
                         );
                     })}

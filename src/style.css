@@ -199,7 +199,6 @@ p, a {
     align-items: flex-start;
 }
 
-/* SVG Styling */
 .team-list img {
 	margin: auto;
 	display: block;
@@ -212,7 +211,40 @@ p, a {
 	margin-top: 0;
 }
 
+/*RESOURCE PAGE*/
+.org-container {
+	padding: 2em 3em;
+	margin-bottom: 1em;
+	max-width: 1000px;
+	color: #fff;
+    background-color: #485356;
+    background: linear-gradient(to top, #2F3536 0%, #485356 100%);
+	background-attachment: fixed;
+	border-radius: .5em;
+	box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+	animation: cd-bounce-2 1s !important;
+}
 
+.org-name {
+	font-family: mr-eaves-modern, sans-serif !important;
+    font-weight: 700 !important;
+	font-style: normal !important;
+	font-size: 14pt !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.org-button {
+	display: block;
+    margin: 0.5em;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 15px;
+    color: #2F3536;
+    margin-left: 0 !important;
+}
+
+/*SVG STYLING*/
 .cls-1 {
 	fill:url(#linear-gradient);
 }
@@ -260,5 +292,9 @@ p, a {
 @media only screen and (min-width: 540px) {
     .button {
 		display: table !important;
+	}
+
+	.org-button {
+		display: inline-table !important;
 	}
 }
