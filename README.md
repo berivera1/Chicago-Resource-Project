@@ -5,6 +5,9 @@
 
 The objective of our project is to create an interactive timeline that serves as a source to locate information regarding police brutality and injustice in Chicago’s past and present. By providing a variety of resources, we hope to connect our users to far more educated individuals on the history of police brutality in our city, and the many harsh realities of its existence in our society today. We are aware that we may have made errors, and hope to mend any as they are discovered. This project is meant to be a continuous work in progress, and we remain fully open to critique from our users. 
 
+## Case Study on Behance!
+https://www.behance.net/gallery/113342035/Chicago-Resource-Project-Case-Study?tracking_source=for_you_feed_user_published
+
 ## Team Overview
 Anna Gingle - UX Tester, Frontend Developer
 
