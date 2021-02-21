@@ -1,6 +1,8 @@
 # Product Name
 > Chicago Resource Project was made in fifteen weeks as an Interactive Arts + Media team sprint at Columbia College Chicago. Our group was inspired by the civil rights protests of 2020, and chose to collect historical events of CPD brutality and activism for an interactive timeline.
 
+![](https://github.com/berivera1/Chicago-Resource-Project/blob/master/public/images/readmeimage.PNG)
+
 The objective of our project is to create an interactive timeline that serves as a source to locate information regarding police brutality and injustice in Chicago’s past and present. By providing a variety of resources, we hope to connect our users to far more educated individuals on the history of police brutality in our city, and the many harsh realities of its existence in our society today. We are aware that we may have made errors, and hope to mend any as they are discovered. This project is meant to be a continuous work in progress, and we remain fully open to critique from our users. 
 
 Team Overview
@@ -17,8 +19,6 @@ Eric E - Copywriter, Researcher
 Georgia Swinand - Graphic Designer, UX/UI Designer
 
 Sneh Mehta - Frontend Developer, UX/UI Designer
-
-![](https://github.com/berivera1/Chicago-Resource-Project/blob/master/public/images/readmeimage.PNG)
 
 ## Credit
 Utilized a timeline component npm package -> https://www.npmjs.com/package/react-vertical-timeline-component
